@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0f1c;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(10,15,28,0.9);
+}
+
+.logo {
+    color: #a64bf4;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.hire-btn {
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #4ea1ff, #a64bf4);
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 80px;
+}
+
+/* LEFT */
+.hero-left {
+    max-width: 500px;
+}
+
+.tag {
+    color: #4ea1ff;
+    letter-spacing: 2px;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+}
+
+.hero-left span {
+    background: linear-gradient(90deg, #4ea1ff, #a64bf4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.desc {
+    color: #aaa;
+    margin-top: 15px;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.primary {
+    background: linear-gradient(90deg, #4ea1ff, #a64bf4);
+    color: white;
+}
+
+.secondary {
+    border: 1px solid white;
+    color: white;
+}
+
+/* IMAGE */
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 40px rgba(100,100,255,0.4);
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px;
+    text-align: center;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111827;
+    padding: 20px;
+    margin: 15px;
+    width: 220px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* GLOBAL FONT IMPROVEMENT */
+body {
+    font-size: 18px;
+}
+
+/* HEADINGS BIGGER */
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+/* TEXT IMPROVEMENT */
+.desc {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* BUTTON TEXT */
+.btn {
+    font-size: 16px;
+}
+/* 🔥 HERO TEXT UPGRADE */
+.hero-left h1 {
+    font-size: 64px;   /* bigger main heading */
+    line-height: 1.2;
+}
+
+.tag {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.desc {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 15px;
+}
+
+/* 🔥 NAVBAR TEXT */
+.navbar a {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* 🔥 BUTTON STYLE IMPROVEMENT */
+.btn {
+    font-size: 17px;
+    padding: 14px 28px;
+    border-radius: 30px;
+}
+
+/* ✨ BUTTON HOVER (very premium feel) */
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* 🔥 SECTION HEADINGS */
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* 🔥 CARD TEXT */
+.card h3 {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 16px;
+}
+/* 🔥 NAVBAR LINKS BIGGER */
+.navbar ul {
+    display: flex;
+    gap: 35px;   /* more spacing between items */
+}
+
+.navbar a {
+    font-size: 19px;   /* bigger text */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+/* ✨ HOVER EFFECT (important for premium look) */
+.navbar a:hover {
+    color: #4ea1ff;
+}
